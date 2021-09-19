@@ -9,8 +9,7 @@ const Header = () => {
                 <SList></SList>
             </SUnorder> 
             <STitle>Jogo da Vida</STitle>              
-        </SHeader>
-        
+        </SHeader>        
     )
 }
 
@@ -30,7 +29,7 @@ export const SHeader = styled.header`
 
 export const STitle = styled.h1`
     :hover {
-        color: #a1ff0a;
+        color: #00f5d4;
     }
 `
 
