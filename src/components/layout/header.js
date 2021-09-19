@@ -8,7 +8,7 @@ const Header = () => {
                 <SList></SList>
                 <SList></SList>
             </SUnorder> 
-            <h1>Jogo da Vida</h1>              
+            <STitle>Jogo da Vida</STitle>              
         </SHeader>
         
     )
@@ -28,6 +28,12 @@ export const SHeader = styled.header`
     box-shadow: 0 0 20px 0 #fff;
 `
 
+export const STitle = styled.h1`
+    :hover {
+        color: #a1ff0a;
+    }
+`
+
 export const SUnorder = styled.ul`
     margin-right: 20px;
 `
@@ -35,9 +41,29 @@ export const SUnorder = styled.ul`
 export const SList = styled.li`
     height: 20px;
     width: 20px;
-    list-style: none;
-    background-color: #fff;
-    border: 1px solid #666;
+    list-style: none;   
+    border-radius: 2px;
     display: inline-block;
     margin-top: 10px;
+
+    :first-child {
+        background-color: #fff;
+        border: 1px solid #fff;
+    }
+
+    :first-child:hover {
+        background-color: #ff006e;
+        border: 1px solid #ff006e;
+    }
+
+    :last-child {
+        background-color: #4cc9f0;
+        border: 1px solid #4cc9f0;
+        margin-left: 1px;
+    }
+
+    :last-child:hover {
+        background-color: #ffea00;
+        border: 1px solid #ffea00;
+    }
 `
