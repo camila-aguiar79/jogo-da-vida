@@ -5,7 +5,7 @@ import produce from 'immer'
 const numRows = 20;
 const numCols = 40;
 
-const operations = [
+const generations = [
   [0, -1],
   [0, 1],
   [1, 1],
@@ -16,7 +16,7 @@ const operations = [
   [-1, 1]  
 ];
 
-const generateEmptyGrid = () => {
+const generateBox = () => {
   const rows = [];
   for (let i = 0; i < numRows; i++) {
     rows.push(Array.from(Array(numCols), () => 0))
@@ -27,7 +27,7 @@ const generateEmptyGrid = () => {
 const Game = () => {
   
   const [grid, setGrid] = useState(() => {
-    return generateEmptyGrid();
+    return generateBox();
   });
 
   console.log(grid);
@@ -47,7 +47,7 @@ const Game = () => {
         for (let i = 0; i < numRows; i++) {
           for (let j = 0; j < numCols; j++){
             let neighbors = 0;
-            operations.forEach(([x, y]) => {
+            generations.forEach(([x, y]) => {
               const newI = i + x;
               const newJ = j + y;
               if (newI >= 0 && newI < numRows && newJ >= 0 && newJ < numCols) {
@@ -97,7 +97,7 @@ const Game = () => {
       </S.Button>
       <S.Button 
         onClick={() => {
-          setGrid(generateEmptyGrid());
+          setGrid(generateBox());
         }}
       >
         Limpar
