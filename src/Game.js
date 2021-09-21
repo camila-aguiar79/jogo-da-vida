@@ -2,8 +2,8 @@ import React, { useState, useCallback, useRef } from 'react'
 import * as S from './style'
 import produce from 'immer'
 
-const numRows = 30;
-const numCols = 30;
+const numRows = 20;
+const numCols = 40;
 
 const operations = [
   [0, -1],
@@ -49,7 +49,7 @@ const Game = () => {
             let neighbors = 0;
             operations.forEach(([x, y]) => {
               const newI = i + x;
-              const newJ = j +y;
+              const newJ = j + y;
               if (newI >= 0 && newI < numRows && newJ >= 0 && newJ < numCols) {
                 neighbors += grid[newI][newJ];
               }
@@ -73,7 +73,6 @@ const Game = () => {
     <S.Main>
       <div>
       <S.Button 
-        // color='primary'
         onClick={() => {
           setRunning(!running); 
           if (!running) {runningRef.current = true; 
@@ -108,8 +107,8 @@ const Game = () => {
       <div
         style={{
           display: 'grid',
-          gridTemplateColumns: `repeat(${numCols}, 30px)`,
-          margin: '30px 220px 60px 220px',
+          gridTemplateColumns: `repeat(${numCols}, 28px)`,
+          margin: '30px 50px 60px 110px',
           
         }}>
         {grid.map((rows, i) => 

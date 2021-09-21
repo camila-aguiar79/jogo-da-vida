@@ -5,13 +5,13 @@ export const Main = styled.div`
     width: 100vw;
 `
 export const Button = styled.button`
-    height: 40px;
+    height: 35px;
     width: 80px;
     border: none;
     border-radius: 5px; 
     cursor: pointer;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     background-color: #ffd300;
 
         :hover {
@@ -20,7 +20,7 @@ export const Button = styled.button`
     
         :first-child {
             background-color: #ff0000;
-            margin-left: 220px;
+            margin-left: 160px;
             margin-right: 20px;    
         }
 
