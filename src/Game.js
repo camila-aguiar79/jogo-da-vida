@@ -65,13 +65,15 @@ const Game = () => {
       });
     });
 
-    setTimeout(runSimulation, 100);
+    setTimeout(runSimulation, 200);
   }, []);
 
 
   return (
     <S.Main>
-      <button 
+      <div>
+      <S.Button 
+        // color='primary'
         onClick={() => {
           setRunning(!running); 
           if (!running) {runningRef.current = true; 
@@ -80,32 +82,35 @@ const Game = () => {
         }}
       >
           {running ? "Parar" : "Iniciar"}
-      </button>
-      <button
+      </S.Button>
+      <S.Button 
         onClick={() => {
           const rows = [];
           for (let i = 0 ; i < numRows; i++) {
             rows.push(
-              Array.from(Array(numCols), () => (Math.random() > 0.7 ? 1 : 0))
+              Array.from(Array(numCols), () => (Math.random() > 0.6 ? 1 : 0))
             );
           }
           setGrid(rows);
         }}
       >
         Random
-      </button>
-      <button
+      </S.Button>
+      <S.Button 
         onClick={() => {
           setGrid(generateEmptyGrid());
         }}
       >
         Limpar
-      </button>
+      </S.Button>
+      </div>
+      
       <div
         style={{
           display: 'grid',
           gridTemplateColumns: `repeat(${numCols}, 30px)`,
-          margin: '40px 220px 60px 220px',
+          margin: '30px 220px 60px 220px',
+          
         }}>
         {grid.map((rows, i) => 
           rows.map((col, j) => (
@@ -121,7 +126,7 @@ const Game = () => {
                 width: 25,
                 height: 25,
                 backgroundColor: grid[i][j] ? '#ff006e' : '#fff',
-                border: 'solid 1px #666',
+                border: 'solid 0.5px #666',
               }}
             />
           ))

@@ -1,7 +1,34 @@
 import styled from 'styled-components'
 
 export const Main = styled.div`
-    margin-top: 120px;
+    margin-top: 100px;
     width: 100vw;
 `
+export const Button = styled.button`
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #ffd300;
+
+        :hover {
+            opacity: 0.8;
+        }
+    
+        :first-child {
+            background-color: #ff0000;
+            margin-left: 220px;
+            margin-right: 20px;    
+        }
+
+        :last-child {
+            background-color: #147df5;
+            margin-left: 20px;
+        }
+`
+
+
 
