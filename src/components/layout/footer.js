@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Footer = () => {
     return (
         <SFooter>
-            <div>&copy; Copyright 2021 - Jogo da Vida</div>
+            <div>&copy; Copyright 2021 - Jogo da Vida - John Horton Conway</div>
         </SFooter>
         
     )
