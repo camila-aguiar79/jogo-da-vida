@@ -39,9 +39,9 @@ As regras definidas são aplicadas a cada nova "geração"; assim, a partir de u
 ### O Jogo
 
 1) O jogador escolhe uma configuração inicial, selecionando as células no tabuleiro;
-2) Clica no botão vermelho 'Iniciar' para iniciar o game;
-3) Clica no botão vermelho 'Parar' finalizar o game;
-4) Exista a possibilidade do jogador escolher um jogo aleatório clicando no botão amarelo 'Random' e em seguida seguir as instruções 2 e 3 respectivamente;
+2) Clicar no botão vermelho 'Iniciar' para iniciar o game;
+3) Clicar no botão vermelho 'Parar' para finalizar o game;
+4) Exista a possibilidade do jogador escolher um jogo aleatório clicando no botão amarelo 'Random' e em seguida seguir as instruções 2 e 3, respectivamente;
 5) O jogador pode limpar o tabuleiro clicando no botão azul 'Limpar'.
 
 ### Créditos - Ben Awad
