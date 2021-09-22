@@ -1,7 +1,12 @@
 ## Jogo da Vida
 
+1) O jogador escolhe uma configuração inicial, selecionando as células no tabuleiro;
+2) Clica no botão vermelho 'Iniciar' para iniciar o game;
+3) Clica no botão vermelho 'Parar' finalizar o game;
+4) Exista a possibilidade do jogador escolher um jogo aleatório clicando no botão amarelo 'Random' e em seguida seguir as instruções 2 e 3 respectivamente;
+5) O jogador pode limpar o tabuleiro clicando no botão azul 'Limpar'.
 
-### GitLabs
+### GitLab
 
 
 https://gitlab.com/camila.aguiar/jogo-da-vida
