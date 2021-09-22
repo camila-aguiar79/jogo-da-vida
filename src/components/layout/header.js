@@ -29,7 +29,7 @@ export const SHeader = styled.header`
 
 export const STitle = styled.h1`
     :hover {
-        color: #00f5d4;
+        color: #ff006e;
     }
 `
 
@@ -51,8 +51,8 @@ export const SList = styled.li`
     }
 
     :first-child:hover {
-        background-color: #ff006e;
-        border: 1px solid #ff006e;
+        background-color: #4cc9f0;
+        border: 1px solid #4cc9f0;
     }
 
     :last-child {
@@ -62,7 +62,7 @@ export const SList = styled.li`
     }
 
     :last-child:hover {
-        background-color: #ffea00;
-        border: 1px solid #ffea00;
+        background-color: #fff;
+        border: 1px solid #fff;
     }
 `
