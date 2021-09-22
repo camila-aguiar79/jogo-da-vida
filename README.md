@@ -1,6 +1,23 @@
 ## Jogo da Vida
 
 
+### GitLabs
+
+
+https://gitlab.com/camila.aguiar/jogo-da-vida
+
+CLI:
+
+1) git clone https://gitlab.com/camila.aguiar/jogo-da-vida.git
+
+2) npm install
+
+3) npm start
+
+### Heroku
+
+https://jogo-da-vida.herokuapp.com/
+
 ### Sobre 
 
 Origem: Wikipédia, a enciclopédia livre.
