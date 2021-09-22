@@ -124,7 +124,7 @@ const Game = () => {
               style={{
                 width: 25,
                 height: 25,
-                backgroundColor: grid[i][j] ? '#ff006e' : '#fff',
+                backgroundColor: grid[i][j] ? '#4cc9f0' : '#fff',
                 border: 'solid 0.5px #666',
               }}
             />
