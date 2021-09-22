@@ -1,13 +1,5 @@
 ## Jogo da Vida
-
-1) O jogador escolhe uma configuração inicial, selecionando as células no tabuleiro;
-2) Clica no botão vermelho 'Iniciar' para iniciar o game;
-3) Clica no botão vermelho 'Parar' finalizar o game;
-4) Exista a possibilidade do jogador escolher um jogo aleatório clicando no botão amarelo 'Random' e em seguida seguir as instruções 2 e 3 respectivamente;
-5) O jogador pode limpar o tabuleiro clicando no botão azul 'Limpar'.
-
 ### GitLab
-
 
 https://gitlab.com/camila.aguiar/jogo-da-vida
 
@@ -32,6 +24,7 @@ O jogo da vida é um autómato celular desenvolvido pelo matemático britânico 
 O jogo foi criado de modo a reproduzir, através de regras simples, as alterações e mudanças em grupos de seres vivos, tendo aplicações em diversas áreas da ciência.
 
 As regras definidas são aplicadas a cada nova "geração"; assim, a partir de uma imagem em um tabuleiro bi-dimensional definida pelo jogador, percebem-se mudanças muitas vezes inesperadas e belas a cada nova geração, variando de padrões fixos a caóticos.
+
 ### Regras
 
 1) Qualquer célula viva com menos de dois vizinhos vivos morre de solidão.
@@ -42,6 +35,14 @@ As regras definidas são aplicadas a cada nova "geração"; assim, a partir de u
 
 4) Qualquer célula viva com dois ou três vizinhos vivos continua no mesmo estado para a
    próxima geração.
+
+### O Jogo
+
+1) O jogador escolhe uma configuração inicial, selecionando as células no tabuleiro;
+2) Clica no botão vermelho 'Iniciar' para iniciar o game;
+3) Clica no botão vermelho 'Parar' finalizar o game;
+4) Exista a possibilidade do jogador escolher um jogo aleatório clicando no botão amarelo 'Random' e em seguida seguir as instruções 2 e 3 respectivamente;
+5) O jogador pode limpar o tabuleiro clicando no botão azul 'Limpar'.
 
 ### Créditos - Ben Awad
 
