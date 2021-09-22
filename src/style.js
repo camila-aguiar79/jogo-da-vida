@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const Main = styled.main`
     margin-top: 100px;
-    width: 100vw;
 `
 export const Button = styled.button`
     height: 35px;
