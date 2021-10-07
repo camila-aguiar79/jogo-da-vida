@@ -3,7 +3,6 @@
 
 https://gitlab.com/camila.aguiar/jogo-da-vida
 
-CLI:
 
 1) git clone https://gitlab.com/camila.aguiar/jogo-da-vida.git
 
